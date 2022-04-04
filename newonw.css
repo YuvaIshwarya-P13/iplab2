@@ -1,0 +1,80 @@
+body{
+font-family: 'PT Scans', sans-serif;
+background-color:black;
+margin:50;
+color:red;
+line-height: 1.2;
+
+}
+a{
+ text-decoration: none;
+ color: redgreen;
+
+}
+#showcase{
+margin: 10;
+padding: 0;
+background:url('C:/Users/DELL LAPTOP/Downloads/AISHWARYA (3).jpg') no-repeat;center/cover;
+width: 100%;
+height: 100vh;
+position:relative;
+overflow: hidden;
+
+}
+#showcase .container{
+margin-top: 35vh ;
+}
+#showcase h1{
+font-size:1.0rem;
+float:right;
+}
+
+nav{
+height: 40px;
+width: 100%;
+background-color: black;
+color: rgb(20, 23, 34);
+position:fixed;
+
+
+}
+nav ul{
+     margin: 0;
+padding: 0;
+}
+nav li{
+display: inline;
+float: left;
+}
+nav a{
+display: inline-block;
+width: 100px;
+text-align: center;
+text-decoration: none;
+padding: 10px 0;
+color: grey;
+
+
+
+}
+nav li:hover{
+background-color:#212341;
+}
+.container{
+max-height: 1180px;
+text-align: center;
+margin:0 auto ;
+padding: 0 3rem;
+}
+.lead{
+font-size: 0.9rem;
+
+}
+footer .footers-cols{
+display: grid;
+grid-gap: 20px;
+grid-template-columns: repeat(2, 1fr);
+padding: 2rem;
+text-align: left;
+font-size: 14px;
+}
